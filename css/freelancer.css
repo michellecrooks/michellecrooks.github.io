@@ -159,15 +159,30 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    text-align:center;
+    float:none;
+}
+
+.navbar-nav .nav li {
+      vertical-align:middle;
+    
 }
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
 
-.navbar-default,
+.navbar-collapse,
+.navbar-brand,
 .navbar-inverse {
+    float: none;
     border: 0;
+     display:inline-block;
+    float:none;
+    margin:0 20px;
+    text-align: center;
+ 
+
 }
 
 section {
